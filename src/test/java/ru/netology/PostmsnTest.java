@@ -19,7 +19,7 @@ public class PostmsnTest {
                 .post("/post")
 // Проверки
                 .then()
-                .statusCode(500)
+                .statusCode(200)
                 .assertThat().body("data", equalTo("some data"));
 
 
